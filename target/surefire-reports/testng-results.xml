@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26059" started-at="2020-04-20T15:16:17 EEST" finished-at="2020-04-20T15:16:43 EEST">
+    <groups>
+    </groups>
+    <test name="Waseet Android Smoke-Test" duration-ms="26059" started-at="2020-04-20T15:16:17 EEST" finished-at="2020-04-20T15:16:43 EEST">
+      <class name="base.Configurations">
+        <test-method status="PASS" signature="configurations(java.lang.String)[pri:0, instance:base.Configurations@44c8afef]" name="configurations" is-config="true" duration-ms="16506" started-at="2020-04-20T15:16:01 EEST" finished-at="2020-04-20T15:16:17 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PixelXL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurations -->
+        <test-method status="PASS" signature="closeServer()[pri:0, instance:base.Configurations@44c8afef]" name="closeServer" is-config="true" duration-ms="2100" started-at="2020-04-20T15:16:43 EEST" finished-at="2020-04-20T15:16:45 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeServer -->
+      </class> <!-- base.Configurations -->
+      <class name="loginAndLogout.Login">
+        <test-method status="PASS" signature="LoginWithValidCredentials()[pri:0, instance:loginAndLogout.Login@7b69c6ba]" name="LoginWithValidCredentials" duration-ms="26041" started-at="2020-04-20T15:16:17 EEST" finished-at="2020-04-20T15:16:43 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+      </class> <!-- loginAndLogout.Login -->
+    </test> <!-- Waseet Android Smoke-Test -->
+  </suite> <!-- Suite -->
+</testng-results>
